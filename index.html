@@ -8,10 +8,193 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-
-
-
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Hot Gadget"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </div>
+  <!--nav part end-->
+<div class="container slider-bg">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+           <div class="row  paddingextra">
+               <div class="col-md-6">
+                   <h1>Macbook Pro</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis minima mollitia maiores deserunt excepturi ex earum suscipit atque cum porro in, quibusdam quo eius fuga ipsa fugiat? Quod, quidem.</p>
+                   <button type="button" class="btn slide_button">BUY NOW</button>
+               </div>
+               <div class="col-md-6">
+                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="Macbook">
+               </div>
+           </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row paddingextra">
+                <div class="col-md-6">
+                    <h1>Unknown Product</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis minima mollitia maiores deserunt excepturi ex earum suscipit atque cum porro in, quibusdam quo eius fuga ipsa fugiat? Quod, quidem.</p>
+                    <button type="button" class="btn slide_button">BUY NOW</button>
+                </div>
+                <div class="col-md-6">
+                 <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="Unknown">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row  paddingextra">
+                <div class="col-md-6">
+                    <h1>Amar Shaua</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis minima mollitia maiores deserunt excepturi ex earum suscipit atque cum porro in, quibusdam quo eius fuga ipsa fugiat? Quod, quidem.</p>
+                    <button type="button" class="btn slide_button">BUY NOW</button>
+                </div>
+                <div class="col-md-6">
+                 <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="Shaua">
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+<!--slider end-->
+<div class="container" id="Smartphones">
+    <div class="d-flex justify-content-between">
+        <h3>Smartphone</h3>
+        <a href="#" class="text-warning">See all</a>
+    </div>
+            <div class="card-deck">
+                <div class="card text-center">
+                  <img src="images/phone/phone-1.png" class="card-img-top" alt="phone1">
+                  <div class="card-body">
+                    <h5 class="card-title">Xiaomi Redmi</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to addi.</p>
+                    <h5>$1000</h5>
+                    <button type="button" class="btn slide_button">BUY NOW</button>
+                  </div>
+                </div>
+                <div class="card text-center">
+                  <img src="images/phone/phone-2.png" class="card-img-top" alt="phone2">
+                  <div class="card-body">
+                    <h5 class="card-title">Iphone 11 Pro</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5>$850</h5>
+                    <button type="button" class="btn slide_button">BUY NOW</button>
+                  </div>
+                </div>
+                <div class="card text-center">
+                  <img src="images/phone/phone-3.png" class="card-img-top" alt="phone3">
+                  <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy pro</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natura additional content.</p>
+                   <h5>$500</h5>
+                   <button type="button" class="btn slide_button center">BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<!--smartphone end-->
+<div class="container" id="laptop">
+  <div class="d-flex justify-content-between">
+    <h3>Laptop</h3>
+    <a href="#" class="text-warning">See all</a>
+  </div>
+  <div class="card-deck">
+    <div class="card text-center">
+      <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <h5>$1000</h5>
+        <button type="button" class="btn slide_button center">BUY NOW</button>
+      </div>
+    </div>
+    <div class="card text-center">
+      <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <h5>$1200</h5>
+        <button type="button" class="btn slide_button center">BUY NOW</button>
+      </div>
+    </div>
+    <div class="card text-center">
+      <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <h5>$1500</h5>
+        <button type="button" class="btn slide_button center">BUY NOW</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Laptop end-->
+<div class="container">
+  <h3 class="text-center categorystyle">Categories</h3>
+  <p class="cat-underline"></p>
+    <div class="row">
+      <div class="col-md-3 d-flex flex-column justify-content-center">
+       <div class="cat text-center">
+        <img src="images/Categories/bag.png" alt="">
+        <h5>Bag</h5>
+       </div>
+      </div>
+      <div class="col-md-3 d-flex flex-column justify-content-between">
+        <div class="cat text-center">
+          <img src="images/Categories/perfume.png" alt="">
+        <h5>perfume</h5>
+        </div>
+        <div class="cat text-center">
+          <img src="images/Categories/shoe.png" alt="">
+          <h5>Shoe</h5>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="images/Categories/pale-order.png" alt="" class="img-fluid">
+      </div>
+  </div>
+    </div>
+<!--categories end-->
     
     
     
